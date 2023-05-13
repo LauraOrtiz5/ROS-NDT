@@ -1,0 +1,807 @@
+[0.000000] (-) TimerEvent: {}
+[0.000790] (ndt_omp_ros2) JobQueued: {'identifier': 'ndt_omp_ros2', 'dependencies': OrderedDict()}
+[0.001542] (ndt_omp_ros2) JobStarted: {'identifier': 'ndt_omp_ros2'}
+[0.019559] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'cmake'}
+[0.019879] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/laura/ndt_ws/src/ndt_omp_ros2', '-DCMAKE_INSTALL_PREFIX=/home/laura/ndt_ws/install/ndt_omp_ros2'], 'cwd': '/home/laura/ndt_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura'), ('OLDPWD', '/home/laura'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1455'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12023'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura'), ('JOURNAL_STREAM', '8:33071'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laura'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:home/laura/ros2_humble/install/nav2_map_server/lib/nav2_map_server'), ('SESSION_MANAGER', 'local/laura-PORTEGE-Z30-A:@/tmp/.ICE-unix/1612,unix/laura-PORTEGE-Z30-A:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', 'c9f015ebe74c4bcfb62693f898ca3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RN7U01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57631e75-1872-4c74-a598-583f2f32d7e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laura/ndt_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laura/test_msgs::/opt/ros/humble')]), 'shell': False}
+[0.099743] (-) TimerEvent: {}
+[0.126295] (ndt_omp_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.192342] (ndt_omp_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.199838] (-) TimerEvent: {}
+[0.204992] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.283947] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.292764] (ndt_omp_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.293084] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.293632] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.297788] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299934] (-) TimerEvent: {}
+[0.382125] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.391514] (ndt_omp_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.391831] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.392404] (ndt_omp_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.395893] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400076] (-) TimerEvent: {}
+[0.500335] (-) TimerEvent: {}
+[0.596893] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.600432] (-) TimerEvent: {}
+[0.700779] (-) TimerEvent: {}
+[0.715445] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.787756] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.795275] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.800876] (-) TimerEvent: {}
+[0.808214] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.828925] (ndt_omp_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.855482] (ndt_omp_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901012] (-) TimerEvent: {}
+[0.949518] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.953994] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.001145] (-) TimerEvent: {}
+[1.002554] (ndt_omp_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.015878] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.095733] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.096106] (ndt_omp_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101246] (-) TimerEvent: {}
+[1.175379] (ndt_omp_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.176542] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201378] (-) TimerEvent: {}
+[1.301720] (-) TimerEvent: {}
+[1.392357] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.401845] (-) TimerEvent: {}
+[1.405945] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.439226] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.439477] (ndt_omp_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.465430] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.483255] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.496973] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.501940] (-) TimerEvent: {}
+[1.544628] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.545073] (ndt_omp_ros2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.590354] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.598709] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.602032] (-) TimerEvent: {}
+[1.702365] (-) TimerEvent: {}
+[1.775514] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.776046] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.778959] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.791863] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.802467] (-) TimerEvent: {}
+[1.813651] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.831337] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.902596] (-) TimerEvent: {}
+[1.929535] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.930248] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.002717] (-) TimerEvent: {}
+[2.008130] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.008387] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.082485] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.082782] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.102814] (-) TimerEvent: {}
+[2.157129] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.157504] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.202946] (-) TimerEvent: {}
+[2.230653] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.230942] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.302695] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.302941] (-) TimerEvent: {}
+[2.303076] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.376253] (ndt_omp_ros2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.403076] (-) TimerEvent: {}
+[2.463966] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.466243] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.468976] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.470927] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.487647] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.495085] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.499666] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.503165] (-) TimerEvent: {}
+[2.506219] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.588784] (ndt_omp_ros2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.603300] (ndt_omp_ros2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.603615] (-) TimerEvent: {}
+[2.641850] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.643078] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.643268] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.703354] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.703579] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.703686] (-) TimerEvent: {}
+[2.703925] (ndt_omp_ros2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.803827] (-) TimerEvent: {}
+[2.893944] (ndt_omp_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.901307] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.903935] (-) TimerEvent: {}
+[2.908479] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.004085] (-) TimerEvent: {}
+[3.082131] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.104189] (-) TimerEvent: {}
+[3.204527] (-) TimerEvent: {}
+[3.260924] (ndt_omp_ros2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.304647] (-) TimerEvent: {}
+[3.404953] (-) TimerEvent: {}
+[3.439807] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.441227] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.441463] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.442448] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.442635] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.443601] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.443777] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.444881] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.445270] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.446930] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.447206] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.448459] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.448769] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.449091] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.449342] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.449662] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.449837] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.451018] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.451393] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.452479] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.452802] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.453808] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.454002] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.455025] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.455393] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.456498] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.456856] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.457906] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.458214] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.459223] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.459557] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.460607] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.460912] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.461943] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.462231] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.463226] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.463624] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.464739] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.464984] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.466127] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.466864] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.467223] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.467402] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.467722] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.467875] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.468291] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.468460] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.469607] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.469904] (ndt_omp_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.470950] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.471940] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.12") \n'}
+[3.472333] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2\n'}
+[3.472461] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu\n'}
+[3.472549] (ndt_omp_ros2) StdoutLine: {'line': b'-- PCL_DEFINITIONS:-DDISABLE_PCAP\n'}
+[3.505070] (-) TimerEvent: {}
+[3.605384] (-) TimerEvent: {}
+[3.705712] (-) TimerEvent: {}
+[3.735919] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[3.805842] (-) TimerEvent: {}
+[3.830582] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[3.830957] (ndt_omp_ros2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[3.905955] (-) TimerEvent: {}
+[3.915829] (ndt_omp_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.950030] (ndt_omp_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.952765] (ndt_omp_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/laura/ndt_ws/build/ndt_omp_ros2\n'}
+[3.973888] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[3.974804] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'build'}
+[3.975694] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/laura/ndt_ws/build/ndt_omp_ros2', '--', '-j4', '-l4'], 'cwd': '/home/laura/ndt_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura'), ('OLDPWD', '/home/laura'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1455'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12023'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura'), ('JOURNAL_STREAM', '8:33071'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laura'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:home/laura/ros2_humble/install/nav2_map_server/lib/nav2_map_server'), ('SESSION_MANAGER', 'local/laura-PORTEGE-Z30-A:@/tmp/.ICE-unix/1612,unix/laura-PORTEGE-Z30-A:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', 'c9f015ebe74c4bcfb62693f898ca3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RN7U01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57631e75-1872-4c74-a598-583f2f32d7e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laura/ndt_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laura/test_msgs::/opt/ros/humble')]), 'shell': False}
+[4.006072] (-) TimerEvent: {}
+[4.029723] (ndt_omp_ros2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o\x1b[0m\n'}
+[4.033330] (ndt_omp_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o\x1b[0m\n'}
+[4.034160] (ndt_omp_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o\x1b[0m\n'}
+[4.106202] (-) TimerEvent: {}
+[4.206722] (-) TimerEvent: {}
+[4.307273] (-) TimerEvent: {}
+[4.407819] (-) TimerEvent: {}
+[4.508351] (-) TimerEvent: {}
+[4.608868] (-) TimerEvent: {}
+[4.709399] (-) TimerEvent: {}
+[4.809940] (-) TimerEvent: {}
+[4.912306] (-) TimerEvent: {}
+[5.012794] (-) TimerEvent: {}
+[5.113313] (-) TimerEvent: {}
+[5.213724] (-) TimerEvent: {}
+[5.314134] (-) TimerEvent: {}
+[5.414498] (-) TimerEvent: {}
+[5.514901] (-) TimerEvent: {}
+[5.615467] (-) TimerEvent: {}
+[5.716008] (-) TimerEvent: {}
+[5.816522] (-) TimerEvent: {}
+[5.916959] (-) TimerEvent: {}
+[6.017457] (-) TimerEvent: {}
+[6.117966] (-) TimerEvent: {}
+[6.218430] (-) TimerEvent: {}
+[6.318978] (-) TimerEvent: {}
+[6.419494] (-) TimerEvent: {}
+[6.520086] (-) TimerEvent: {}
+[6.620638] (-) TimerEvent: {}
+[6.721181] (-) TimerEvent: {}
+[6.821737] (-) TimerEvent: {}
+[6.922305] (-) TimerEvent: {}
+[7.022749] (-) TimerEvent: {}
+[7.123207] (-) TimerEvent: {}
+[7.223701] (-) TimerEvent: {}
+[7.324189] (-) TimerEvent: {}
+[7.424634] (-) TimerEvent: {}
+[7.525038] (-) TimerEvent: {}
+[7.625459] (-) TimerEvent: {}
+[7.725863] (-) TimerEvent: {}
+[7.826269] (-) TimerEvent: {}
+[7.926809] (-) TimerEvent: {}
+[8.027358] (-) TimerEvent: {}
+[8.127860] (-) TimerEvent: {}
+[8.228278] (-) TimerEvent: {}
+[8.328716] (-) TimerEvent: {}
+[8.429160] (-) TimerEvent: {}
+[8.529599] (-) TimerEvent: {}
+[8.630121] (-) TimerEvent: {}
+[8.730655] (-) TimerEvent: {}
+[8.831235] (-) TimerEvent: {}
+[8.931743] (-) TimerEvent: {}
+[9.032328] (-) TimerEvent: {}
+[9.132898] (-) TimerEvent: {}
+[9.233480] (-) TimerEvent: {}
+[9.334126] (-) TimerEvent: {}
+[9.434706] (-) TimerEvent: {}
+[9.535243] (-) TimerEvent: {}
+[9.635769] (-) TimerEvent: {}
+[9.736352] (-) TimerEvent: {}
+[9.836871] (-) TimerEvent: {}
+[9.937322] (-) TimerEvent: {}
+[10.037761] (-) TimerEvent: {}
+[10.138161] (-) TimerEvent: {}
+[10.238560] (-) TimerEvent: {}
+[10.338996] (-) TimerEvent: {}
+[10.439620] (-) TimerEvent: {}
+[10.540459] (-) TimerEvent: {}
+[10.640973] (-) TimerEvent: {}
+[10.741720] (-) TimerEvent: {}
+[10.842260] (-) TimerEvent: {}
+[10.942688] (-) TimerEvent: {}
+[11.043084] (-) TimerEvent: {}
+[11.143518] (-) TimerEvent: {}
+[11.243941] (-) TimerEvent: {}
+[11.344359] (-) TimerEvent: {}
+[11.444801] (-) TimerEvent: {}
+[11.545272] (-) TimerEvent: {}
+[11.645700] (-) TimerEvent: {}
+[11.746126] (-) TimerEvent: {}
+[11.846544] (-) TimerEvent: {}
+[11.946987] (-) TimerEvent: {}
+[12.047429] (-) TimerEvent: {}
+[12.147901] (-) TimerEvent: {}
+[12.248486] (-) TimerEvent: {}
+[12.349067] (-) TimerEvent: {}
+[12.449622] (-) TimerEvent: {}
+[12.550288] (-) TimerEvent: {}
+[12.650903] (-) TimerEvent: {}
+[12.751467] (-) TimerEvent: {}
+[12.852066] (-) TimerEvent: {}
+[12.952622] (-) TimerEvent: {}
+[13.053191] (-) TimerEvent: {}
+[13.153713] (-) TimerEvent: {}
+[13.254165] (-) TimerEvent: {}
+[13.354743] (-) TimerEvent: {}
+[13.464074] (-) TimerEvent: {}
+[13.568094] (-) TimerEvent: {}
+[13.668656] (-) TimerEvent: {}
+[13.769215] (-) TimerEvent: {}
+[13.869769] (-) TimerEvent: {}
+[13.970349] (-) TimerEvent: {}
+[14.070951] (-) TimerEvent: {}
+[14.171556] (-) TimerEvent: {}
+[14.272142] (-) TimerEvent: {}
+[14.372533] (-) TimerEvent: {}
+[14.472938] (-) TimerEvent: {}
+[14.573364] (-) TimerEvent: {}
+[14.673782] (-) TimerEvent: {}
+[14.774167] (-) TimerEvent: {}
+[14.874547] (-) TimerEvent: {}
+[14.974925] (-) TimerEvent: {}
+[15.075284] (-) TimerEvent: {}
+[15.175785] (-) TimerEvent: {}
+[15.276231] (-) TimerEvent: {}
+[15.376683] (-) TimerEvent: {}
+[15.477146] (-) TimerEvent: {}
+[15.577600] (-) TimerEvent: {}
+[15.678082] (-) TimerEvent: {}
+[15.778714] (-) TimerEvent: {}
+[15.879275] (-) TimerEvent: {}
+[15.979814] (-) TimerEvent: {}
+[16.080239] (-) TimerEvent: {}
+[16.180644] (-) TimerEvent: {}
+[16.281010] (-) TimerEvent: {}
+[16.381368] (-) TimerEvent: {}
+[16.481782] (-) TimerEvent: {}
+[16.582196] (-) TimerEvent: {}
+[16.682613] (-) TimerEvent: {}
+[16.783052] (-) TimerEvent: {}
+[16.883512] (-) TimerEvent: {}
+[16.983916] (-) TimerEvent: {}
+[17.084357] (-) TimerEvent: {}
+[17.184810] (-) TimerEvent: {}
+[17.285259] (-) TimerEvent: {}
+[17.385677] (-) TimerEvent: {}
+[17.486117] (-) TimerEvent: {}
+[17.586527] (-) TimerEvent: {}
+[17.686909] (-) TimerEvent: {}
+[17.787297] (-) TimerEvent: {}
+[17.887754] (-) TimerEvent: {}
+[17.992087] (-) TimerEvent: {}
+[18.096081] (-) TimerEvent: {}
+[18.200112] (-) TimerEvent: {}
+[18.302084] (-) TimerEvent: {}
+[18.402554] (-) TimerEvent: {}
+[18.502979] (-) TimerEvent: {}
+[18.603415] (-) TimerEvent: {}
+[18.703831] (-) TimerEvent: {}
+[18.804276] (-) TimerEvent: {}
+[18.904637] (-) TimerEvent: {}
+[19.005073] (-) TimerEvent: {}
+[19.105578] (-) TimerEvent: {}
+[19.206062] (-) TimerEvent: {}
+[19.306500] (-) TimerEvent: {}
+[19.406950] (-) TimerEvent: {}
+[19.507336] (-) TimerEvent: {}
+[19.607734] (-) TimerEvent: {}
+[19.708232] (-) TimerEvent: {}
+[19.808671] (-) TimerEvent: {}
+[19.909055] (-) TimerEvent: {}
+[20.009438] (-) TimerEvent: {}
+[20.109822] (-) TimerEvent: {}
+[20.210202] (-) TimerEvent: {}
+[20.310623] (-) TimerEvent: {}
+[20.411336] (-) TimerEvent: {}
+[20.511905] (-) TimerEvent: {}
+[20.612376] (-) TimerEvent: {}
+[20.712892] (-) TimerEvent: {}
+[20.813419] (-) TimerEvent: {}
+[20.913871] (-) TimerEvent: {}
+[21.014296] (-) TimerEvent: {}
+[21.114681] (-) TimerEvent: {}
+[21.215116] (-) TimerEvent: {}
+[21.315581] (-) TimerEvent: {}
+[21.416088] (-) TimerEvent: {}
+[21.516557] (-) TimerEvent: {}
+[21.616963] (-) TimerEvent: {}
+[21.717373] (-) TimerEvent: {}
+[21.817800] (-) TimerEvent: {}
+[21.918219] (-) TimerEvent: {}
+[22.018636] (-) TimerEvent: {}
+[22.119054] (-) TimerEvent: {}
+[22.219490] (-) TimerEvent: {}
+[22.319909] (-) TimerEvent: {}
+[22.420360] (-) TimerEvent: {}
+[22.520816] (-) TimerEvent: {}
+[22.621251] (-) TimerEvent: {}
+[22.721714] (-) TimerEvent: {}
+[22.822163] (-) TimerEvent: {}
+[22.922602] (-) TimerEvent: {}
+[23.023022] (-) TimerEvent: {}
+[23.123405] (-) TimerEvent: {}
+[23.223794] (-) TimerEvent: {}
+[23.324222] (-) TimerEvent: {}
+[23.424640] (-) TimerEvent: {}
+[23.525064] (-) TimerEvent: {}
+[23.625459] (-) TimerEvent: {}
+[23.726041] (-) TimerEvent: {}
+[23.827477] (-) TimerEvent: {}
+[23.927996] (-) TimerEvent: {}
+[24.028405] (-) TimerEvent: {}
+[24.128831] (-) TimerEvent: {}
+[24.229218] (-) TimerEvent: {}
+[24.329631] (-) TimerEvent: {}
+[24.430057] (-) TimerEvent: {}
+[24.530458] (-) TimerEvent: {}
+[24.630868] (-) TimerEvent: {}
+[24.731314] (-) TimerEvent: {}
+[24.831723] (-) TimerEvent: {}
+[24.932092] (-) TimerEvent: {}
+[25.032562] (-) TimerEvent: {}
+[25.133019] (-) TimerEvent: {}
+[25.233432] (-) TimerEvent: {}
+[25.333823] (-) TimerEvent: {}
+[25.434253] (-) TimerEvent: {}
+[25.534629] (-) TimerEvent: {}
+[25.635072] (-) TimerEvent: {}
+[25.735542] (-) TimerEvent: {}
+[25.835932] (-) TimerEvent: {}
+[25.936400] (-) TimerEvent: {}
+[26.036782] (-) TimerEvent: {}
+[26.137175] (-) TimerEvent: {}
+[26.237587] (-) TimerEvent: {}
+[26.337960] (-) TimerEvent: {}
+[26.438370] (-) TimerEvent: {}
+[26.538789] (-) TimerEvent: {}
+[26.639203] (-) TimerEvent: {}
+[26.739588] (-) TimerEvent: {}
+[26.839974] (-) TimerEvent: {}
+[26.940387] (-) TimerEvent: {}
+[27.040771] (-) TimerEvent: {}
+[27.141153] (-) TimerEvent: {}
+[27.241585] (-) TimerEvent: {}
+[27.341950] (-) TimerEvent: {}
+[27.442319] (-) TimerEvent: {}
+[27.542710] (-) TimerEvent: {}
+[27.643080] (-) TimerEvent: {}
+[27.743450] (-) TimerEvent: {}
+[27.843836] (-) TimerEvent: {}
+[27.944179] (-) TimerEvent: {}
+[28.044448] (-) TimerEvent: {}
+[28.144789] (-) TimerEvent: {}
+[28.245107] (-) TimerEvent: {}
+[28.345444] (-) TimerEvent: {}
+[28.445755] (-) TimerEvent: {}
+[28.546078] (-) TimerEvent: {}
+[28.646410] (-) TimerEvent: {}
+[28.746746] (-) TimerEvent: {}
+[28.847079] (-) TimerEvent: {}
+[28.947424] (-) TimerEvent: {}
+[29.047787] (-) TimerEvent: {}
+[29.148132] (-) TimerEvent: {}
+[29.248467] (-) TimerEvent: {}
+[29.348855] (-) TimerEvent: {}
+[29.449230] (-) TimerEvent: {}
+[29.549573] (-) TimerEvent: {}
+[29.649937] (-) TimerEvent: {}
+[29.743598] (ndt_omp_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libndt_omp.a\x1b[0m\n'}
+[29.750077] (-) TimerEvent: {}
+[29.838849] (ndt_omp_ros2) StdoutLine: {'line': b'[ 66%] Built target ndt_omp\n'}
+[29.850199] (-) TimerEvent: {}
+[29.859493] (ndt_omp_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/align.dir/apps/align.cpp.o\x1b[0m\n'}
+[29.950325] (-) TimerEvent: {}
+[30.050732] (-) TimerEvent: {}
+[30.151256] (-) TimerEvent: {}
+[30.251651] (-) TimerEvent: {}
+[30.352106] (-) TimerEvent: {}
+[30.452543] (-) TimerEvent: {}
+[30.553028] (-) TimerEvent: {}
+[30.653405] (-) TimerEvent: {}
+[30.753791] (-) TimerEvent: {}
+[30.854204] (-) TimerEvent: {}
+[30.954620] (-) TimerEvent: {}
+[31.055055] (-) TimerEvent: {}
+[31.155479] (-) TimerEvent: {}
+[31.255874] (-) TimerEvent: {}
+[31.356280] (-) TimerEvent: {}
+[31.456662] (-) TimerEvent: {}
+[31.557045] (-) TimerEvent: {}
+[31.657438] (-) TimerEvent: {}
+[31.757818] (-) TimerEvent: {}
+[31.858194] (-) TimerEvent: {}
+[31.958615] (-) TimerEvent: {}
+[32.059041] (-) TimerEvent: {}
+[32.159430] (-) TimerEvent: {}
+[32.259822] (-) TimerEvent: {}
+[32.360213] (-) TimerEvent: {}
+[32.460581] (-) TimerEvent: {}
+[32.560966] (-) TimerEvent: {}
+[32.661358] (-) TimerEvent: {}
+[32.761745] (-) TimerEvent: {}
+[32.862139] (-) TimerEvent: {}
+[32.962559] (-) TimerEvent: {}
+[33.062944] (-) TimerEvent: {}
+[33.163335] (-) TimerEvent: {}
+[33.263732] (-) TimerEvent: {}
+[33.364133] (-) TimerEvent: {}
+[33.464511] (-) TimerEvent: {}
+[33.564903] (-) TimerEvent: {}
+[33.665355] (-) TimerEvent: {}
+[33.765757] (-) TimerEvent: {}
+[33.866136] (-) TimerEvent: {}
+[33.966508] (-) TimerEvent: {}
+[34.066889] (-) TimerEvent: {}
+[34.167292] (-) TimerEvent: {}
+[34.267665] (-) TimerEvent: {}
+[34.368051] (-) TimerEvent: {}
+[34.468401] (-) TimerEvent: {}
+[34.568743] (-) TimerEvent: {}
+[34.669092] (-) TimerEvent: {}
+[34.769463] (-) TimerEvent: {}
+[34.869845] (-) TimerEvent: {}
+[34.970217] (-) TimerEvent: {}
+[35.070601] (-) TimerEvent: {}
+[35.171023] (-) TimerEvent: {}
+[35.271434] (-) TimerEvent: {}
+[35.371850] (-) TimerEvent: {}
+[35.472282] (-) TimerEvent: {}
+[35.572653] (-) TimerEvent: {}
+[35.673034] (-) TimerEvent: {}
+[35.773423] (-) TimerEvent: {}
+[35.873839] (-) TimerEvent: {}
+[35.974164] (-) TimerEvent: {}
+[36.074473] (-) TimerEvent: {}
+[36.174790] (-) TimerEvent: {}
+[36.275103] (-) TimerEvent: {}
+[36.375425] (-) TimerEvent: {}
+[36.475741] (-) TimerEvent: {}
+[36.576075] (-) TimerEvent: {}
+[36.676394] (-) TimerEvent: {}
+[36.776713] (-) TimerEvent: {}
+[36.877024] (-) TimerEvent: {}
+[36.977339] (-) TimerEvent: {}
+[37.077661] (-) TimerEvent: {}
+[37.177977] (-) TimerEvent: {}
+[37.278303] (-) TimerEvent: {}
+[37.378632] (-) TimerEvent: {}
+[37.478985] (-) TimerEvent: {}
+[37.579295] (-) TimerEvent: {}
+[37.679607] (-) TimerEvent: {}
+[37.779947] (-) TimerEvent: {}
+[37.880296] (-) TimerEvent: {}
+[37.980610] (-) TimerEvent: {}
+[38.080927] (-) TimerEvent: {}
+[38.181276] (-) TimerEvent: {}
+[38.281633] (-) TimerEvent: {}
+[38.381979] (-) TimerEvent: {}
+[38.482293] (-) TimerEvent: {}
+[38.582608] (-) TimerEvent: {}
+[38.682923] (-) TimerEvent: {}
+[38.783244] (-) TimerEvent: {}
+[38.883574] (-) TimerEvent: {}
+[38.983894] (-) TimerEvent: {}
+[39.084220] (-) TimerEvent: {}
+[39.184528] (-) TimerEvent: {}
+[39.284875] (-) TimerEvent: {}
+[39.385222] (-) TimerEvent: {}
+[39.485587] (-) TimerEvent: {}
+[39.585905] (-) TimerEvent: {}
+[39.686232] (-) TimerEvent: {}
+[39.786564] (-) TimerEvent: {}
+[39.886890] (-) TimerEvent: {}
+[39.987232] (-) TimerEvent: {}
+[40.087621] (-) TimerEvent: {}
+[40.188011] (-) TimerEvent: {}
+[40.288369] (-) TimerEvent: {}
+[40.388737] (-) TimerEvent: {}
+[40.489086] (-) TimerEvent: {}
+[40.589405] (-) TimerEvent: {}
+[40.689733] (-) TimerEvent: {}
+[40.790086] (-) TimerEvent: {}
+[40.890435] (-) TimerEvent: {}
+[40.990787] (-) TimerEvent: {}
+[41.091138] (-) TimerEvent: {}
+[41.191485] (-) TimerEvent: {}
+[41.291813] (-) TimerEvent: {}
+[41.392145] (-) TimerEvent: {}
+[41.492475] (-) TimerEvent: {}
+[41.592797] (-) TimerEvent: {}
+[41.693145] (-) TimerEvent: {}
+[41.793489] (-) TimerEvent: {}
+[41.893999] (-) TimerEvent: {}
+[41.994370] (-) TimerEvent: {}
+[42.094729] (-) TimerEvent: {}
+[42.195085] (-) TimerEvent: {}
+[42.295446] (-) TimerEvent: {}
+[42.395796] (-) TimerEvent: {}
+[42.496127] (-) TimerEvent: {}
+[42.596475] (-) TimerEvent: {}
+[42.696813] (-) TimerEvent: {}
+[42.797163] (-) TimerEvent: {}
+[42.897507] (-) TimerEvent: {}
+[42.997897] (-) TimerEvent: {}
+[43.098293] (-) TimerEvent: {}
+[43.198659] (-) TimerEvent: {}
+[43.299005] (-) TimerEvent: {}
+[43.399353] (-) TimerEvent: {}
+[43.499697] (-) TimerEvent: {}
+[43.600051] (-) TimerEvent: {}
+[43.700385] (-) TimerEvent: {}
+[43.800734] (-) TimerEvent: {}
+[43.901079] (-) TimerEvent: {}
+[44.001425] (-) TimerEvent: {}
+[44.101780] (-) TimerEvent: {}
+[44.202140] (-) TimerEvent: {}
+[44.302498] (-) TimerEvent: {}
+[44.402840] (-) TimerEvent: {}
+[44.503196] (-) TimerEvent: {}
+[44.603553] (-) TimerEvent: {}
+[44.703949] (-) TimerEvent: {}
+[44.804372] (-) TimerEvent: {}
+[44.904762] (-) TimerEvent: {}
+[45.005145] (-) TimerEvent: {}
+[45.105489] (-) TimerEvent: {}
+[45.205822] (-) TimerEvent: {}
+[45.306173] (-) TimerEvent: {}
+[45.406519] (-) TimerEvent: {}
+[45.506874] (-) TimerEvent: {}
+[45.607228] (-) TimerEvent: {}
+[45.707602] (-) TimerEvent: {}
+[45.807975] (-) TimerEvent: {}
+[45.908364] (-) TimerEvent: {}
+[46.008710] (-) TimerEvent: {}
+[46.109070] (-) TimerEvent: {}
+[46.209569] (-) TimerEvent: {}
+[46.309912] (-) TimerEvent: {}
+[46.410258] (-) TimerEvent: {}
+[46.510604] (-) TimerEvent: {}
+[46.610948] (-) TimerEvent: {}
+[46.711315] (-) TimerEvent: {}
+[46.811680] (-) TimerEvent: {}
+[46.912045] (-) TimerEvent: {}
+[47.012405] (-) TimerEvent: {}
+[47.112754] (-) TimerEvent: {}
+[47.213096] (-) TimerEvent: {}
+[47.313445] (-) TimerEvent: {}
+[47.413784] (-) TimerEvent: {}
+[47.514151] (-) TimerEvent: {}
+[47.614536] (-) TimerEvent: {}
+[47.714932] (-) TimerEvent: {}
+[47.815271] (-) TimerEvent: {}
+[47.915627] (-) TimerEvent: {}
+[48.016007] (-) TimerEvent: {}
+[48.116366] (-) TimerEvent: {}
+[48.216701] (-) TimerEvent: {}
+[48.317056] (-) TimerEvent: {}
+[48.417399] (-) TimerEvent: {}
+[48.517752] (-) TimerEvent: {}
+[48.618109] (-) TimerEvent: {}
+[48.718480] (-) TimerEvent: {}
+[48.818832] (-) TimerEvent: {}
+[48.919181] (-) TimerEvent: {}
+[49.019560] (-) TimerEvent: {}
+[49.119964] (-) TimerEvent: {}
+[49.220355] (-) TimerEvent: {}
+[49.320768] (-) TimerEvent: {}
+[49.421222] (-) TimerEvent: {}
+[49.521597] (-) TimerEvent: {}
+[49.621957] (-) TimerEvent: {}
+[49.722323] (-) TimerEvent: {}
+[49.822675] (-) TimerEvent: {}
+[49.923041] (-) TimerEvent: {}
+[50.023396] (-) TimerEvent: {}
+[50.123755] (-) TimerEvent: {}
+[50.224086] (-) TimerEvent: {}
+[50.324428] (-) TimerEvent: {}
+[50.424749] (-) TimerEvent: {}
+[50.525093] (-) TimerEvent: {}
+[50.625444] (-) TimerEvent: {}
+[50.725795] (-) TimerEvent: {}
+[50.826145] (-) TimerEvent: {}
+[50.926495] (-) TimerEvent: {}
+[51.026825] (-) TimerEvent: {}
+[51.127165] (-) TimerEvent: {}
+[51.227522] (-) TimerEvent: {}
+[51.327905] (-) TimerEvent: {}
+[51.428365] (-) TimerEvent: {}
+[51.528733] (-) TimerEvent: {}
+[51.629099] (-) TimerEvent: {}
+[51.729459] (-) TimerEvent: {}
+[51.829809] (-) TimerEvent: {}
+[51.930156] (-) TimerEvent: {}
+[52.030507] (-) TimerEvent: {}
+[52.130892] (-) TimerEvent: {}
+[52.231276] (-) TimerEvent: {}
+[52.331628] (-) TimerEvent: {}
+[52.431990] (-) TimerEvent: {}
+[52.532338] (-) TimerEvent: {}
+[52.632690] (-) TimerEvent: {}
+[52.733037] (-) TimerEvent: {}
+[52.833374] (-) TimerEvent: {}
+[52.933727] (-) TimerEvent: {}
+[53.034076] (-) TimerEvent: {}
+[53.134418] (-) TimerEvent: {}
+[53.234762] (-) TimerEvent: {}
+[53.335110] (-) TimerEvent: {}
+[53.435456] (-) TimerEvent: {}
+[53.535805] (-) TimerEvent: {}
+[53.636164] (-) TimerEvent: {}
+[53.736517] (-) TimerEvent: {}
+[53.836957] (-) TimerEvent: {}
+[53.937496] (-) TimerEvent: {}
+[54.037893] (-) TimerEvent: {}
+[54.138233] (-) TimerEvent: {}
+[54.238579] (-) TimerEvent: {}
+[54.338922] (-) TimerEvent: {}
+[54.439272] (-) TimerEvent: {}
+[54.539619] (-) TimerEvent: {}
+[54.639969] (-) TimerEvent: {}
+[54.740338] (-) TimerEvent: {}
+[54.840681] (-) TimerEvent: {}
+[54.941053] (-) TimerEvent: {}
+[55.041420] (-) TimerEvent: {}
+[55.141708] (-) TimerEvent: {}
+[55.242023] (-) TimerEvent: {}
+[55.342343] (-) TimerEvent: {}
+[55.442683] (-) TimerEvent: {}
+[55.542997] (-) TimerEvent: {}
+[55.643336] (-) TimerEvent: {}
+[55.743677] (-) TimerEvent: {}
+[55.844035] (-) TimerEvent: {}
+[55.944351] (-) TimerEvent: {}
+[56.044675] (-) TimerEvent: {}
+[56.145000] (-) TimerEvent: {}
+[56.245357] (-) TimerEvent: {}
+[56.345669] (-) TimerEvent: {}
+[56.445988] (-) TimerEvent: {}
+[56.546305] (-) TimerEvent: {}
+[56.646623] (-) TimerEvent: {}
+[56.746941] (-) TimerEvent: {}
+[56.847302] (-) TimerEvent: {}
+[56.947721] (-) TimerEvent: {}
+[57.048051] (-) TimerEvent: {}
+[57.148415] (-) TimerEvent: {}
+[57.248845] (-) TimerEvent: {}
+[57.349143] (-) TimerEvent: {}
+[57.449461] (-) TimerEvent: {}
+[57.549779] (-) TimerEvent: {}
+[57.650095] (-) TimerEvent: {}
+[57.750412] (-) TimerEvent: {}
+[57.850727] (-) TimerEvent: {}
+[57.951036] (-) TimerEvent: {}
+[58.051351] (-) TimerEvent: {}
+[58.151664] (-) TimerEvent: {}
+[58.252012] (-) TimerEvent: {}
+[58.352322] (-) TimerEvent: {}
+[58.452640] (-) TimerEvent: {}
+[58.552977] (-) TimerEvent: {}
+[58.653322] (-) TimerEvent: {}
+[58.753677] (-) TimerEvent: {}
+[58.854017] (-) TimerEvent: {}
+[58.954406] (-) TimerEvent: {}
+[59.054782] (-) TimerEvent: {}
+[59.155177] (-) TimerEvent: {}
+[59.255556] (-) TimerEvent: {}
+[59.355930] (-) TimerEvent: {}
+[59.456361] (-) TimerEvent: {}
+[59.556726] (-) TimerEvent: {}
+[59.657113] (-) TimerEvent: {}
+[59.757481] (-) TimerEvent: {}
+[59.857846] (-) TimerEvent: {}
+[59.958220] (-) TimerEvent: {}
+[60.058597] (-) TimerEvent: {}
+[60.158955] (-) TimerEvent: {}
+[60.259339] (-) TimerEvent: {}
+[60.277575] (ndt_omp_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable align\x1b[0m\n'}
+[60.359466] (-) TimerEvent: {}
+[60.459856] (-) TimerEvent: {}
+[60.560330] (-) TimerEvent: {}
+[60.660866] (-) TimerEvent: {}
+[60.761490] (-) TimerEvent: {}
+[60.861895] (-) TimerEvent: {}
+[60.962323] (-) TimerEvent: {}
+[61.062716] (-) TimerEvent: {}
+[61.163180] (-) TimerEvent: {}
+[61.263845] (-) TimerEvent: {}
+[61.364536] (-) TimerEvent: {}
+[61.464962] (-) TimerEvent: {}
+[61.565394] (-) TimerEvent: {}
+[61.665784] (-) TimerEvent: {}
+[61.750880] (ndt_omp_ros2) StdoutLine: {'line': b'[100%] Built target align\n'}
+[61.761877] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[61.765870] (-) TimerEvent: {}
+[61.798604] (ndt_omp_ros2) JobProgress: {'identifier': 'ndt_omp_ros2', 'progress': 'install'}
+[61.807858] (ndt_omp_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/laura/ndt_ws/build/ndt_omp_ros2'], 'cwd': '/home/laura/ndt_ws/build/ndt_omp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'laura'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/laura'), ('OLDPWD', '/home/laura'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1455'), ('SYSTEMD_EXEC_PID', '1796'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12023'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'laura'), ('JOURNAL_STREAM', '8:33071'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'laura'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:home/laura/ros2_humble/install/nav2_map_server/lib/nav2_map_server'), ('SESSION_MANAGER', 'local/laura-PORTEGE-Z30-A:@/tmp/.ICE-unix/1612,unix/laura-PORTEGE-Z30-A:/tmp/.ICE-unix/1612'), ('INVOCATION_ID', 'c9f015ebe74c4bcfb62693f898ca3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RN7U01'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57631e75-1872-4c74-a598-583f2f32d7e1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/laura/ndt_ws/build/ndt_omp_ros2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/laura/test_msgs::/opt/ros/humble')]), 'shell': False}
+[61.817800] (ndt_omp_ros2) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[61.818191] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align\n'}
+[61.819440] (ndt_omp_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align" to ""\n'}
+[61.819840] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/bin/align\n'}
+[61.821065] (ndt_omp_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/bin/align" to ""\n'}
+[61.821410] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include\n'}
+[61.821641] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp\n'}
+[61.821870] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h\n'}
+[61.822073] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp\n'}
+[61.822248] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp\n'}
+[61.822469] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp\n'}
+[61.822625] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h\n'}
+[61.822809] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h\n'}
+[61.822966] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2\n'}
+[61.823194] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2\n'}
+[61.823430] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh\n'}
+[61.823628] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv\n'}
+[61.823846] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh\n'}
+[61.824245] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv\n'}
+[61.824478] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash\n'}
+[61.824713] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh\n'}
+[61.824929] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh\n'}
+[61.825141] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv\n'}
+[61.825355] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv\n'}
+[61.825612] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2\n'}
+[61.825860] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[61.826082] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[61.826300] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake\n'}
+[61.826496] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake\n'}
+[61.826691] (ndt_omp_ros2) StdoutLine: {'line': b'-- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml\n'}
+[61.828693] (ndt_omp_ros2) CommandEnded: {'returncode': 0}
+[61.865974] (-) TimerEvent: {}
+[61.903868] (ndt_omp_ros2) JobEnded: {'identifier': 'ndt_omp_ros2', 'rc': 0}
+[61.904716] (-) EventReactorShutdown: {}

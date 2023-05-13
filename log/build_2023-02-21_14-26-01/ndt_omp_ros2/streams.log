@@ -1,0 +1,183 @@
+[0.019s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/ndt_ws/src/ndt_omp_ros2 -DCMAKE_INSTALL_PREFIX=/home/laura/ndt_ws/install/ndt_omp_ros2
+[0.125s] -- The C compiler identification is GNU 11.3.0
+[0.191s] -- The CXX compiler identification is GNU 11.3.0
+[0.204s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.291s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.596s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.714s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.786s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.948s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.001s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.014s] -- Looking for pthread.h
+[1.094s] -- Looking for pthread.h - found
+[1.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.175s] -- Found Threads: TRUE  
+[1.391s] -- Checking for module 'eigen3'
+[1.405s] --   Found eigen3, version 3.4.0
+[1.438s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.438s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.464s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.482s] -- Checking for module 'flann'
+[1.496s] --   Found flann, version 1.9.1
+[1.543s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.544s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.589s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.597s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.774s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.775s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.778s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.790s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.812s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.830s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.928s] -- Found X11: /usr/include   
+[1.929s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.007s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.007s] -- Looking for gethostbyname
+[2.081s] -- Looking for gethostbyname - found
+[2.081s] -- Looking for connect
+[2.156s] -- Looking for connect - found
+[2.156s] -- Looking for remove
+[2.229s] -- Looking for remove - found
+[2.229s] -- Looking for shmat
+[2.301s] -- Looking for shmat - found
+[2.302s] -- Looking for IceConnectionNumber in ICE
+[2.375s] -- Looking for IceConnectionNumber in ICE - found
+[2.463s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.465s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.468s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.469s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.486s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.494s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.498s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.505s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.587s] -- Checking for module 'libusb-1.0'
+[2.602s] --   Found libusb-1.0, version 1.0.25
+[2.640s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.642s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.642s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.702s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.702s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.702s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.893s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.900s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.907s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.081s] -- Found Qhull version 8.0.2
+[3.260s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.438s] -- looking for PCL_COMMON
+[3.440s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.440s] -- looking for PCL_KDTREE
+[3.441s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.441s] -- looking for PCL_OCTREE
+[3.442s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.442s] -- looking for PCL_SEARCH
+[3.443s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.444s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.446s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.446s] -- looking for PCL_FILTERS
+[3.447s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.447s] -- looking for PCL_2D
+[3.448s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.448s] -- looking for PCL_GEOMETRY
+[3.448s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.448s] -- looking for PCL_IO
+[3.450s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.450s] -- looking for PCL_FEATURES
+[3.451s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.451s] -- looking for PCL_ML
+[3.452s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.453s] -- looking for PCL_SEGMENTATION
+[3.454s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.454s] -- looking for PCL_VISUALIZATION
+[3.455s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.455s] -- looking for PCL_SURFACE
+[3.456s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.457s] -- looking for PCL_REGISTRATION
+[3.458s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.458s] -- looking for PCL_KEYPOINTS
+[3.459s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.459s] -- looking for PCL_TRACKING
+[3.460s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.461s] -- looking for PCL_RECOGNITION
+[3.462s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.462s] -- looking for PCL_STEREO
+[3.463s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.464s] -- looking for PCL_APPS
+[3.465s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.465s] -- looking for PCL_IN_HAND_SCANNER
+[3.466s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.466s] -- looking for PCL_MODELER
+[3.466s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.466s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.467s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.467s] -- looking for PCL_OUTOFCORE
+[3.468s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.468s] -- looking for PCL_PEOPLE
+[3.469s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.471s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.12") 
+[3.471s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2
+[3.471s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[3.471s] -- PCL_DEFINITIONS:-DDISABLE_PCAP
+[3.735s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.829s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.829s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.914s] -- Configuring done
+[3.949s] -- Generating done
+[3.951s] -- Build files have been written to: /home/laura/ndt_ws/build/ndt_omp_ros2
+[3.973s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/laura/ndt_ws/src/ndt_omp_ros2 -DCMAKE_INSTALL_PREFIX=/home/laura/ndt_ws/install/ndt_omp_ros2
+[3.975s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[4.028s] [ 16%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o[0m
+[4.032s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o[0m
+[4.033s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[29.742s] [ 66%] [32m[1mLinking CXX static library libndt_omp.a[0m
+[29.838s] [ 66%] Built target ndt_omp
+[29.858s] [ 83%] [32mBuilding CXX object CMakeFiles/align.dir/apps/align.cpp.o[0m
+[60.276s] [100%] [32m[1mLinking CXX executable align[0m
+[61.750s] [100%] Built target align
+[61.761s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[61.808s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2
+[61.817s] -- Install configuration: "RELEASE"
+[61.817s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align
+[61.818s] -- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align" to ""
+[61.818s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/bin/align
+[61.820s] -- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/bin/align" to ""
+[61.820s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include
+[61.820s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp
+[61.820s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h
+[61.821s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp
+[61.821s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[61.821s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp
+[61.821s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h
+[61.821s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h
+[61.822s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2
+[61.822s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2
+[61.822s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh
+[61.822s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv
+[61.822s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh
+[61.823s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv
+[61.823s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash
+[61.823s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh
+[61.823s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh
+[61.824s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv
+[61.824s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv
+[61.824s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2
+[61.824s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.825s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.825s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake
+[61.825s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake
+[61.825s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml
+[61.828s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2

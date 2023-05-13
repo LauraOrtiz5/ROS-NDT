@@ -1,0 +1,34 @@
+[0.029s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[0.253s] [ 66%] Built target ndt_omp
+[0.361s] [100%] Built target align
+[0.373s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[0.420s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2
+[0.430s] -- Install configuration: "RELEASE"
+[0.432s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align
+[0.433s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/bin/align
+[0.434s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include
+[0.434s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h
+[0.435s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh
+[0.436s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv
+[0.437s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake
+[0.437s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml
+[0.440s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2

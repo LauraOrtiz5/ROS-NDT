@@ -1,0 +1,4 @@
+Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2
+Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2

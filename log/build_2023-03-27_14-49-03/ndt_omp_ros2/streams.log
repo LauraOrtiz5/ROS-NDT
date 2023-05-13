@@ -1,0 +1,95 @@
+[0.021s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[0.143s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.530s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.576s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.803s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.853s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.413s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.420s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.420s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.598s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.605s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.612s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.783s] -- Found Qhull version 8.0.2
+[1.963s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.130s] -- looking for PCL_COMMON
+[2.131s] -- looking for PCL_KDTREE
+[2.131s] -- looking for PCL_OCTREE
+[2.132s] -- looking for PCL_SEARCH
+[2.132s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.133s] -- looking for PCL_FILTERS
+[2.133s] -- looking for PCL_2D
+[2.134s] -- looking for PCL_GEOMETRY
+[2.134s] -- looking for PCL_IO
+[2.135s] -- looking for PCL_FEATURES
+[2.135s] -- looking for PCL_ML
+[2.136s] -- looking for PCL_SEGMENTATION
+[2.136s] -- looking for PCL_VISUALIZATION
+[2.137s] -- looking for PCL_SURFACE
+[2.138s] -- looking for PCL_REGISTRATION
+[2.138s] -- looking for PCL_KEYPOINTS
+[2.139s] -- looking for PCL_TRACKING
+[2.139s] -- looking for PCL_RECOGNITION
+[2.140s] -- looking for PCL_STEREO
+[2.141s] -- looking for PCL_APPS
+[2.142s] -- looking for PCL_IN_HAND_SCANNER
+[2.142s] -- looking for PCL_MODELER
+[2.143s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.143s] -- looking for PCL_OUTOFCORE
+[2.144s] -- looking for PCL_PEOPLE
+[2.145s] -- PCL_INCLUDE_DIRS:/usr/include/pcl-1.12/usr/include/eigen3/usr/include/usr/include/ni/usr/include/openni2
+[2.146s] -- PCL_LIBRARY_DIRS:/usr/lib/x86_64-linux-gnu
+[2.146s] -- PCL_DEFINITIONS:-DDISABLE_PCAP
+[2.235s] -- Configuring done
+[2.309s] -- Generating done
+[2.312s] -- Build files have been written to: /home/laura/ndt_ws/build/ndt_omp_ros2
+[2.355s] [35m[1mConsolidate compiler generated dependencies of target ndt_omp[0m
+[2.441s] [ 16%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/voxel_grid_covariance_omp.cpp.o[0m
+[2.448s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/ndt_omp.cpp.o[0m
+[2.448s] [ 50%] [32mBuilding CXX object CMakeFiles/ndt_omp.dir/src/pclomp/gicp_omp.cpp.o[0m
+[28.861s] [ 66%] [32m[1mLinking CXX static library libndt_omp.a[0m
+[29.121s] [ 66%] Built target ndt_omp
+[29.137s] [35m[1mConsolidate compiler generated dependencies of target align[0m
+[29.219s] [ 83%] [32mBuilding CXX object CMakeFiles/align.dir/apps/align.cpp.o[0m
+[60.034s] [100%] [32m[1mLinking CXX executable align[0m
+[61.775s] [100%] Built target align
+[61.813s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/laura/ndt_ws/build/ndt_omp_ros2 -- -j4 -l4
+[61.903s] Invoking command in '/home/laura/ndt_ws/build/ndt_omp_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2
+[61.910s] -- Install configuration: "RELEASE"
+[61.912s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align
+[61.914s] -- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/lib/ndt_omp_ros2/align" to ""
+[61.915s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/bin/align
+[61.917s] -- Set runtime path of "/home/laura/ndt_ws/install/ndt_omp_ros2/bin/align" to ""
+[61.918s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include
+[61.918s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp
+[61.918s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp.h
+[61.918s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp_impl.hpp
+[61.918s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp_impl.hpp
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/ndt_omp_impl.hpp
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/gicp_omp.h
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/include/pclomp/voxel_grid_covariance_omp.h
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/package_run_dependencies/ndt_omp_ros2
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/parent_prefix_path/ndt_omp_ros2
+[61.919s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.sh
+[61.919s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/ament_prefix_path.dsv
+[61.920s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.sh
+[61.920s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/environment/path.dsv
+[61.920s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.bash
+[61.921s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.sh
+[61.921s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.zsh
+[61.921s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/local_setup.dsv
+[61.921s] -- Installing: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.dsv
+[61.922s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ament_index/resource_index/packages/ndt_omp_ros2
+[61.922s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.922s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.922s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config.cmake
+[61.923s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/cmake/ndt_omp_ros2Config-version.cmake
+[61.923s] -- Up-to-date: /home/laura/ndt_ws/install/ndt_omp_ros2/share/ndt_omp_ros2/package.xml
+[61.938s] Invoked command in '/home/laura/ndt_ws/build/ndt_omp_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/laura/ndt_ws/build/ndt_omp_ros2
